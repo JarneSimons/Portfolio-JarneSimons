@@ -1,0 +1,36 @@
+body {
+    background-color: #010101;
+}
+
+#logo {
+    /* margin-top: 2em;
+    margin-left: 2em; */
+    margin-right: 45em;
+}
+
+nav {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 2em;
+    border-bottom: #0F85FF 3px solid;
+    
+}
+
+.links a{
+   
+    text-decoration: none;
+    color: #0F85FF;
+    font-size: 2em;
+    
+}
+
+.links {
+    /* margin-left: 40em; */
+    display: flex;
+    gap: 7em;
+    align-items: right;
+    justify-content: right;
+
+}
