@@ -7,6 +7,7 @@ body {
     /* margin-top: 2em;
     margin-left: 2em; */
     margin-right: 35em;
+
 }
 
 nav {
@@ -53,19 +54,29 @@ nav {
 
 
 .foto{
-    background-color: #155CA5;
-    width: 20em;
-    height: 20em;
+    
     margin-left: 17em;
     margin-top: 5em;
+    
     /* background-image: url(./images/fotoPortfolio.png); */
 
 }
 
 .foto img{
-    width: 80em;
-    height: 80em;
+    width: auto;
+    height: 23em;
+
 
     /* background-image: url(./images/fotoPortfolio.png); */
 
 }
+
+.text{
+    margin-left: 9.3em;    
+    color: #fbfaf6;
+    font-size: 2em;
+    font-family: raleway extrabold;
+
+
+}
+
