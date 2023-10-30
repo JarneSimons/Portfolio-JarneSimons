@@ -84,6 +84,24 @@ nav {
 
 }
 
+.foto2{
+    
+    margin-left: 13em;
+    margin-top: 5em;
+    
+    /* background-image: url(./images/fotoPortfolio.png); */
+
+}
+
+.foto2 img{
+    width: auto;
+    height: 18em;
+
+
+    /* background-image: url(./images/fotoPortfolio.png); */
+
+}
+
 .foto img{
     width: auto;
     height: 18em;
@@ -106,8 +124,28 @@ nav {
 .text h2{
     margin-top: 0.1em;
     margin-bottom: 0em;
+    
+}
+
+.text2{
+       
+    color: #fbfaf6;
+    font-size: 3.5em;
+    font-family: 'lettertype3';
+    width: 10em;
+    margin-left: 5em;
+    padding-top: -20em;
+}
+
+.text2 h2{
+    margin-top: 0.1em;
+    margin-bottom: 0em;
     margin-left: 1.5em;
 }
+
+
+
+
 
 header {
     display: flex;
@@ -186,7 +224,12 @@ header {
 
 .title {
     color: #fbfaf6;
-    
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
 }
 
 .title h1 {
@@ -194,23 +237,51 @@ header {
     
 }
 
-.socials {
-    width: auto;
+
+
+.socials1 {
+    
     display: flex;
     flex-direction: column;
-    margin-top: -11em;
     padding-right: 3em;
-    
-
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2em;
 }
 
-.socials a {
+.socials1 a {
     margin-left: auto; 
     padding-bottom: 2em;
     
 }
 
-.socials i {
+.socials1 i {
     font-size: 2.2em;
 }
 
+
+.titles{
+    color: #fbfaf6;
+    margin-left: 2em;
+    margin-top: 1em;
+    padding-right: 15em;
+}
+
+.titles h1 {
+    font-size: 5em;
+    margin-bottom: 0em;
+}
+
+.work{
+    font-family: lettertype;
+    color: #fbfaf6;
+    font-size: 2em;
+
+    writing-mode: vertical-lr;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    margin-left: 0.4em;
+    transform: translateY(-50%) rotate(-180deg);
+}
