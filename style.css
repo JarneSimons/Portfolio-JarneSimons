@@ -1,6 +1,25 @@
+@font-face {
+    font-family: 'lettertype';
+    src: url('./fonts/Raleway-ExtraBold.woff') format('woff');
+    
+}
+
+
+@font-face {
+    font-family: 'lettertype2';
+    src: url('./fonts/Raleway-Medium.woff') format('woff');
+    
+}
+
+@font-face {
+    font-family: 'lettertype3';
+    src: url('./fonts/NiveauGroteskLight.woff') format('woff');
+    
+}
+
 body {
     background-color: #010101;
-    font-family: raleway extrabold;
+    font-family: lettertype;
     
 }
 
@@ -78,7 +97,8 @@ nav {
     margin-left: 7.3em;    
     color: #fbfaf6;
     font-size: 1.5em;
-    font-family: raleway extrabold;
+    /* font-family: raleway extrabold; */
+    font-family: 'lettertype';
     width: 15em;
 
 }
@@ -108,14 +128,15 @@ header {
 }
 
 .aboutText p{
-    font-family: niveau grotesk extralight;
+    /* font-family: niveau grotesk extralight; */
+    font-family: 'lettertype2';
     font-size: 1.2em;
     
 
 }
 
 .skills p{
-    font-family: niveau grotesk extralight;
+    font-family: 'lettertype3';
     font-size: 1.2em;
     color: #fbfaf6;
 
@@ -134,7 +155,7 @@ header {
     text-decoration: none;
     color: #fbfaf6;
     font-size: 1em;
-    font-family: raleway extrabold;
+    font-family: 'lettertype';
     
 }
 
