@@ -222,17 +222,16 @@ header {
 
 
 
-.title {
+.titles {
     color: #fbfaf6;
-    width: auto;
-    height: auto;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 1em;
+    
 }
 
-.title h1 {
+.titles h1 {
     font-size: 5em;
     
 }
@@ -260,28 +259,125 @@ header {
     font-size: 2.2em;
 }
 
+.socials1 a i {
+    color:#0F85FF;
+}
+
+.socials1 a i:hover {
+    color:#155CA5;
+}
+
 
 .titles{
     color: #fbfaf6;
     margin-left: 2em;
     margin-top: 1em;
     padding-right: 15em;
+    display: flex;
+
 }
 
 .titles h1 {
     font-size: 5em;
-    margin-bottom: 0em;
+    
+    padding-left: 0.3em;
+    
 }
 
 .work{
     font-family: lettertype;
     color: #fbfaf6;
-    font-size: 2em;
+    font-size: 2.5em;
 
     writing-mode: vertical-lr;
     text-align: center;
     position: fixed;
     top: 50%;
-    margin-left: 0.4em;
+    margin-left: 1em;
     transform: translateY(-50%) rotate(-180deg);
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    margin-right: 11em;
+}
+
+.skillFoto{
+    
+}
+
+.skillFoto img{
+    width: 30em;
+    
+    
+}
+
+.skillTitle{
+    margin-bottom: 10em;
+    width: auto;
+}
+
+.skillName{
+   
+    position: fixed;
+    margin-top: 16em;
+    margin-left: 22em;
+    
+    
+
+    text-align: center;
+    
+}
+
+.skillName h2{
+    font-family: lettertype3;
+    color: #fbfaf6;
+    font-size: 8em;
+}
+
+
+.Bg{
+    width: 32em;
+    height: 17em;
+    /* background-color: #155CA5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Bg img{
+    /* width: 32em;
+    height: 26em; */
+    margin-right: 2em;
+    margin-top: 6em;
+}
+
+.cta{
+    
+    text-decoration: none;
+    color: #fbfaf6;
+    background-color: #0F85FF;
+    padding: 0.6em 4em;
+    border-radius: 8px;
+    border: none;
+    font-family: lettertype;
+    font-size: 1em;
+    
+}
+.boxCta{
+    
+    margin-top: 4em;
+    
+
+}
+
+.cta:hover{
+    background-color: #155CA5;
+    
 }
