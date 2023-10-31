@@ -273,7 +273,8 @@ header {
     margin-left: 2em;
     margin-top: 1em;
     padding-right: 15em;
-    display: flex;
+    display: flex; 
+    height: 24em;
 
 }
 
@@ -304,6 +305,7 @@ header {
     justify-content: center;
     margin-top: 1em;
     margin-right: 11em;
+    margin-bottom: 15em;
 }
 
 .skillFoto{
@@ -323,9 +325,9 @@ header {
 
 .skillName{
    
-    position: fixed;
+    /* position: fixed; */
     margin-top: 16em;
-    margin-left: 22em;
+    margin-left: -22em;
     
     
 
@@ -380,4 +382,43 @@ header {
 .cta:hover{
     background-color: #155CA5;
     
+}
+
+
+.more {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 2em;
+}
+
+
+.more p{
+    color: #fbfaf6;
+    font-family: lettertype;
+    
+}
+
+.more img{
+    width: 1em;
+    
+    
+}
+
+.more a {
+    text-decoration: none;
+    color: #fbfaf6;
+    
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#next-section {
+    margin-left: 10em;
 }
