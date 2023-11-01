@@ -605,3 +605,35 @@ html {
 .socials3 a i:hover {
     color: #0F85FF;
 }
+
+
+.titleProject{
+    color: #fbfaf6;
+    font-family: lettertype3;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10em;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titleProject img {
+    width: 32em;
+    height: 17em;
+}
+
+.textProject {
+    color: #fbfaf6;
+    font-family: lettertype3;
+    margin-left: 4em;
+    margin-right: 8em;
+}
+
+.titlePro {
+    font-size: 5em;
+    margin-bottom: 0em;
+    color: #fbfaf6;
+    margin-left: 2em;
+}
