@@ -112,7 +112,7 @@ nav {
 }
 
 .text{
-    margin-left: 7.3em;    
+    margin-left: 9.5em;    
     color: #fbfaf6;
     font-size: 1.5em;
     /* font-family: raleway extrabold; */
@@ -327,7 +327,7 @@ header {
    
     /* position: fixed; */
     margin-top: 16em;
-    margin-left: -22em;
+    margin-left: -29em;
     
     
 
@@ -386,7 +386,7 @@ header {
 
 
 .more {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -394,6 +394,10 @@ header {
     width: 100%;
     font-size: 1em;
     margin-bottom: 2em;
+    
+    
+    
+    
 }
 
 
@@ -421,4 +425,87 @@ html {
 
 #next-section {
     margin-left: 10em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0em;
+    margin-right: 32em;
+    margin-bottom: 15em;
+    padding-top: 11em;
+}
+
+
+.Bg2{
+    width: 15em;
+    height: 7em;
+    /* background-color: #155CA5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Bg2 img{
+    width: 15em;
+    height: 28em;
+    
+    margin-top: 6em;
+}
+
+.skillName2{
+   
+    /* position: fixed; */
+    margin-bottom: 30em;
+    margin-left: 13em;
+    margin-top: -2em;
+    
+
+    text-align: center;
+    
+}
+
+.skillName2 h2{
+    font-family: lettertype3;
+    color: #fbfaf6;
+    font-size: 8em;
+}
+
+
+.more2 {
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 2em;
+    margin-top: 11em;
+    padding-bottom: 7em;
+    
+}
+
+
+.more2 p{
+    color: #fbfaf6;
+    font-family: lettertype;
+    
+}
+
+.more2 img{
+    width: 1em;
+    
+    
+}
+
+.more2 a {
+    text-decoration: none;
+    color: #fbfaf6;
+    
+}
+
+.skillFoto2{
+    height: 0em;
 }
