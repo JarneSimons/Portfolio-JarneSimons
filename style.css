@@ -509,3 +509,99 @@ html {
 .skillFoto2{
     height: 0em;
 }
+
+
+
+.color {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 40vh;
+    background-color: #155CA5;
+}
+
+.titleSkills {
+    color: #fbfaf6;
+    font-family: lettertype;
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleSkills {
+    font-size: 3em;
+}
+
+.bigBox {
+    display: flex;
+
+
+    flex-direction: row;
+    /* space between */
+    justify-content: space-between;
+    gap: 5em;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15em;
+    padding-right: 15em;
+    
+}
+
+
+
+
+.firstBox {
+    width: 10em;
+    height: 13em;
+    background-color: #fbfaf6;
+}
+
+.secondBox {
+    width: 15em;
+    height: 15em;
+    background-color: #fbfaf6;
+    color: #155CA5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.thirdBox {
+    width: 15em;
+    height: 18em;
+    background-color: #fbfaf6;
+}
+
+
+.socials3 {
+    
+    display: flex;
+    flex-direction: column;
+    padding-right: 3em;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 2em;
+}
+
+.socials3 a {
+    margin-left: auto; 
+    padding-bottom: 2em;
+    
+}
+
+.socials3 i {
+    font-size: 2.2em;
+}
+
+.socials3 a i {
+    color:#fbfaf6;
+}
+
+.socials3 a i:hover {
+    color: #0F85FF;
+}
