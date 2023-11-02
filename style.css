@@ -25,9 +25,9 @@ body {
 
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 #logo {
     /* margin-top: 2em;
@@ -735,4 +735,83 @@ html {
     text-decoration: none;
     color: #fbfaf6;
     
+}
+
+
+.contactTitle{
+    color: #fbfaf6;
+    font-family: lettertype;
+    font-size: 2.5em;
+    margin-bottom: 0em;
+    margin-top: 0em;
+    margin-left: 4em;
+
+}
+
+.fotoContact{
+    /* align right on screen */
+    /* margin-left: auto;
+    margin-right: 0em;
+    margin-top: -5em;
+    margin-bottom: 0em;
+    width: 20em;
+    height: 20em; */
+
+
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translate(0, -50%);
+    width: 20em;
+    height: 20em;
+    margin-right: 8em;
+    
+}
+
+.fotoContact img{
+    
+    height: 24em;
+}
+
+
+.socials4 {
+    
+    display: flex;
+    flex-direction: column;
+    padding-right: 3em;
+    position: fixed;
+    bottom: 0;
+    left: 50;
+    margin-bottom: 2em;
+}
+
+.socials4 a {
+    margin-left: auto; 
+    padding-bottom: 2em;
+    
+}
+
+.socials4 i {
+    font-size: 2.2em;
+}
+
+.socials4 a i {
+    color:#0F85FF;
+}
+
+.socials4 a i:hover {
+    color:#155CA5;
+}
+
+.boxContact {
+    width: 40em;
+    height: 100vh;
+    border-top: #0F85FF 3px solid;
+    border-right: #0F85FF 3px solid;
+    
+}
+
+
+.bodyContact {
+    overflow: hidden;
 }
