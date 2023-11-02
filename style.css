@@ -801,17 +801,32 @@ html {
 
 .socials4 a i:hover {
     color:#155CA5;
+    transform: rotate(30deg);
 }
+
+
 
 .boxContact {
     width: 40em;
     height: 100vh;
     border-top: #0F85FF 3px solid;
     border-right: #0F85FF 3px solid;
-    
+    display: flex;
+    align-items: right;
+    justify-content: center;
+    flex-direction: row;
 }
 
 
 .bodyContact {
     overflow: hidden;
+}
+
+.textContact{
+    color: #fbfaf6;
+    font-size: 2em;
+    font-family: lettertype3;
+    width: auto;
+    height: 4em;
+    
 }
