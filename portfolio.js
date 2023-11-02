@@ -12,7 +12,7 @@ let currentSkillIndex = 0;
     }
 
     function startInterval() {
-        intervalId = setInterval(displaySkill, 2000); // Change skills every 3 seconds
+        intervalId = setInterval(displaySkill, 1500); // Change skills every 3 seconds
     }
 
     function stopInterval() {

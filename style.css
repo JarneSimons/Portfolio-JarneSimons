@@ -20,13 +20,19 @@
 body {
     background-color: #010101;
     font-family: lettertype;
-    
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 #logo {
     /* margin-top: 2em;
     margin-left: 2em; */
-    margin-right: 44em;
+    margin-right: 43em;
     z-index: 1;
     
     
@@ -458,8 +464,8 @@ html {
    
     /* position: fixed; */
     margin-bottom: 30em;
-    margin-left: 13em;
-    margin-top: -2em;
+    margin-left: 12.5em;
+    margin-top: -10em;
     
 
     text-align: center;
@@ -636,4 +642,97 @@ html {
     margin-bottom: 0em;
     color: #fbfaf6;
     margin-left: 2em;
+    font-family: lettertype3;
+}
+
+
+#next-section2 {
+    margin-left: 41em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 43em;
+    margin-right: 32em;
+    margin-bottom: 15em;
+    padding-top: 5em;
+    padding-bottom: 14em;
+}
+
+
+.skillFoto3{
+    height: 0em;
+}
+
+.skillName3{
+   
+    /* position: fixed; */
+    margin-bottom: 30em;
+    margin-left: 20em;
+    margin-top: -10em;
+    width: 55em;    
+
+    /* text-align: center; */
+    
+}
+
+.skillName3 h2{
+    font-family: lettertype3;
+    color: #fbfaf6;
+    font-size: 8em;
+}
+
+
+.Bg3{
+    width: 28em;
+    height: 11em;
+    /* background-color: #155CA5; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.Bg3 img{
+    width: 27em;
+    height: 17em;
+    margin-right: 2em;
+    margin-top: 6em;
+}
+
+
+
+.more3 {
+    position: absolute;
+    
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 2em;
+    margin-top: 3em;
+    padding-bottom: 2em;
+    
+}
+
+
+.more3 p{
+    color: #fbfaf6;
+    font-family: lettertype;
+    
+}
+
+.more3 img{
+    width: 1em;
+    transform: rotate(180deg);
+    
+    
+}
+
+.more3 a {
+    text-decoration: none;
+    color: #fbfaf6;
+    
 }
