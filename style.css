@@ -25,9 +25,9 @@ body {
 
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
-} */
+}
 
 #logo {
     /* margin-top: 2em;
@@ -620,8 +620,9 @@ html {
     display: flex;
     flex-direction: row;
     margin-left: 10em;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: top;
+    margin-bottom: 5em;
     
 }
 
@@ -778,11 +779,13 @@ html {
     
     display: flex;
     flex-direction: column;
-    padding-right: 3em;
-    position: fixed;
+    /* padding-right: 3em; */
+    /* position: fixed;
     bottom: 0;
     left: 50;
-    margin-bottom: 2em;
+    margin-bottom: 2em; */
+    align-items: center;
+    justify-content: center;
 }
 
 .socials4 a {
@@ -808,13 +811,13 @@ html {
 
 .boxContact {
     width: 40em;
-    height: 100vh;
+    height: 60vh;
     border-top: #0F85FF 3px solid;
     border-right: #0F85FF 3px solid;
     display: flex;
-    align-items: right;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
+    /* flex-direction: row; */
 }
 
 
@@ -828,5 +831,187 @@ html {
     font-family: lettertype3;
     width: auto;
     height: 4em;
+    margin-right: 2em;
     
 }
+
+
+.picsProject1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.picsProject1 img {
+    width: 15em;
+    height: auto;
+   
+}
+
+
+
+/*
+.picsProject1 img:first-child {
+    width: 14em;
+}
+
+.picsProject1 img:last-child {
+    width: 20em;
+}
+
+.picsProject1 img:nth-child(2) {
+    width: 27em;
+} */
+
+
+.firstPicProject1 {
+    width: 20em;
+    height: 30em;
+    /* background-color: #155CA5; */
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.secondPicProject1{
+    width: 20em; 
+    height: 30em; 
+    /* background-color: #155CA5; */
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.thirdPicProject1{
+    width: 20em;
+    height: 30em;
+    /* background-color: #155CA5; */
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.firstPicProject1 img, .secondPicProject1 img, .thirdPicProject1 img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.picsProject1 h2 {
+    font-size: 2em;
+    color: #fbfaf6;
+    font-family: lettertype3;
+    margin-bottom: 2em;
+    margin-top: 0em;
+   
+}
+
+.boxFotosProject1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    
+}
+
+
+.titleProject2{
+    color: #fbfaf6;
+    font-family: lettertype3;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    margin-left: 9.5em;
+    justify-content: top;
+    align-items: top;
+    margin-bottom: 5em;
+    
+}
+
+.titleProject2 img {
+    width: auto;
+    height: 22em;
+}
+
+
+.picsProject2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4em;
+}
+
+.picsProject2 img {
+    width: 15em;
+    height: auto;
+   
+}
+
+.picsProject2 h2 {
+    font-size: 2em;
+    color: #fbfaf6;
+    font-family: lettertype3;
+    margin-bottom: 2em;
+    margin-top: -3em;
+   
+}
+
+.boxFotosProject2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5em;
+    
+}
+
+.firstPicProject2 {
+    width: 20em;
+    height: 30em;
+    /* background-color: #155CA5; */
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.secondPicProject2 {
+    width: 20em; 
+    height: 30em; 
+    /* background-color: #155CA5; */
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.thirdPicProject2{
+    width: 20em;
+    height: 30em;
+    /* background-color: #155CA5; */
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.firstPicProject2 img, .secondPicProject2 img, .thirdPicProject2 img{
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
