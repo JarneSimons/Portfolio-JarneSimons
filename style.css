@@ -22,7 +22,7 @@ body {
     font-family: lettertype;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -1159,10 +1159,377 @@ html {
 
 /* responsive */
 
-@media (max-width: 800px) {
-    /* body {
+@media (max-width: 2000px) {
+    body {
         background-color: lightcoral;
-    } */
+    }
+
+    
+    .color {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 50vh;
+        background-color: #155CA5;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 1900px) {
+    body {
+        background-color: lightgreen;
+    }
+
+    
+    .color {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        z-index: -1;
+        width: 100%;
+        height: 40vh;
+        background-color: #155CA5;
+    }
+}
+
+
+
+@media (max-width: 1300px) {
+    body {
+        background-color: lightcoral;
+    }
+    .aboutText{
+        color: #fbfaf6;
+        margin-left: 2em;
+        margin-top: 1em;
+        padding-right: 10em;
+    }
+
+    
+    .skillFoto img{
+        width: 25em;
+        
+    }
+    .skillName{
+   
+        /* position: fixed; */
+        margin-top: 16em;
+        margin-left: -29em;
+        
+        
+    
+        text-align: center;
+        
+    }
+    
+    .skillName h2{
+        font-family: lettertype3;
+        color: #fbfaf6;
+        font-size: 6em;
+    }
+    .skillName2{
+   
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 12.5em;
+        margin-top: -8em;
+        
+    
+        text-align: center;
+        
+    }
+    
+    .skillName2 h2{
+        font-family: lettertype3;
+        color: #fbfaf6;
+        font-size: 6em;
+    }
+
+    .skillFoto3 img{
+        width: 20em;
+        
+    }
+
+    .skillName3{
+   
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 15em;
+        margin-top: -8em;
+        width: 55em;    
+    
+        /* text-align: center; */
+        
+    }
+    
+    .skillName3 h2{
+        font-family: lettertype3;
+        color: #fbfaf6;
+        font-size: 6em;
+    }
+
+    
+   
+}
+
+@media (max-width: 1100px) {
+    body {
+        background-color: lightblue;
+    }
+    .aboutText{
+        color: #fbfaf6;
+        margin-left: -5em;
+        margin-top: 1em;
+        padding-right: 5em;
+    }
+
+    .aboutText p{
+        font-size: 1.2em;
+    }
+
+    .foto img{
+        width: auto;
+        height: 14em;
+    
+    
+        /* background-image: url(./images/fotoPortfolio.png); */
+    
+    }
+   
+    .text{
+        margin-left: 9.5em;    
+        color: #fbfaf6;
+        font-size: 1.5em;
+        /* font-family: raleway extrabold; */
+        font-family: 'lettertype';
+        width: 15em;
+    
+    }
+    
+    .text h2{
+        margin-top: 0.1em;
+        margin-bottom: 0em;
+        
+    }
+
+
+    .skillFoto img{
+        width: 18em;
+        
+    }
+    .skillName{
+   
+        /* position: fixed; */
+        margin-top: 10em;
+        margin-left: -31em;
+        
+        
+    
+        text-align: center;
+        
+    }
+    
+    .Bg2 img{
+        width: 12em;
+        height: 25em;
+        
+        margin-top: 6em;
+    }
+    
+    .skillName h2{
+        font-family: lettertype3;
+        color: #fbfaf6;
+        font-size: 6em;
+    }
+    .skillName2{
+   
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 11.5em;
+        margin-top: -7em;
+        
+    
+        text-align: center;
+        
+    }
+    
+    .skillName2 h2{
+        font-family: lettertype3;
+        color: #fbfaf6;
+        font-size: 6em;
+    }
+
+    .skillFoto3 img{
+        width: 20em;
+        
+    }
+
+    .skillName3{
+   
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 15em;
+        margin-top: -8em;
+        width: 55em;    
+    
+        /* text-align: center; */
+        
+    }
+    
+    .skillName3 h2{
+        font-family: lettertype3;
+        color: #fbfaf6;
+        font-size: 6em;
+    }
+
+    #next-section {
+        margin-left: 12em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0em;
+        margin-right: 32em;
+        margin-bottom: 15em;
+        padding-top: 11em;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    body {
+        background-color: lightgreen;
+    }
+    .aboutText{
+        color: #fbfaf6;
+        margin-left: -5em;
+        margin-top: 1em;
+        padding-right: 7em;
+    }
+
+    .aboutText p{
+        font-size: 1.2em;
+        
+    }
+
+    .foto {
+        margin-left: 10em;
+    }
+
+    .foto img{
+        width: auto;
+        height: 14em;
+    
+    
+        /* background-image: url(./images/fotoPortfolio.png); */
+    
+    }
+   
+    .text{
+        margin-left: 6.5em;    
+        color: #fbfaf6;
+        font-size: 1.5em;
+        /* font-family: raleway extrabold; */
+        font-family: 'lettertype';
+        width: 15em;
+    
+    }
+    
+    .text h2{
+        margin-top: 0.1em;
+        margin-bottom: 0em;
+        
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1em;
+        margin-right: 8em;
+        margin-bottom: 15em;
+    }
+
+    #next-section {
+        margin-right: 29em;
+    }
+}
+
+@media (max-width: 900px) {
+    body {
+        background-color: red;
+    }
+
+    .skillName h2{
+        font-family: lettertype3;
+        color: #fbfaf6;
+        font-size: 4em;
+    }
+    
+
+    .skillName2 h2{
+        font-size: 4em;
+    }
+
+    .skillName3 h2{
+        font-size: 4em;
+    }
+
+    .skillName3{
+   
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 15em;
+        margin-top: -5em;
+        width: 55em;    
+    
+        /* text-align: center; */
+    }
+
+    .skillName2 {
+       /* position: fixed; */
+       margin-bottom: 30em;
+       margin-left: 11.5em;
+       margin-top: -5em;
+       
+   
+       text-align: center; 
+    }
+
+
+    .titles h1 {
+        font-size: 5em;
+        
+        padding-left: 1em;
+        margin-left: -2em;
+        
+    }
+
+    .skillName {
+        /* position: fixed; */
+        margin-top: 10em;
+        margin-left: -24em;
+        
+        
+    
+        text-align: center;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightsalmon;
+    }
     .links {
         display: none;
         flex-direction: column;
@@ -1200,16 +1567,454 @@ html {
         cursor: pointer; */
     } 
 
+
+
+    .foto {
+        margin-left: 5em;
+    }
+
+    .text{
+        margin-left: 3em;    
+        color: #fbfaf6;
+        font-size: 1.5em;
+        /* font-family: raleway extrabold; */
+        font-family: 'lettertype';
+        width: 15em;
+    
+    }
+    
+    .text h2{
+        margin-top: 0.1em;
+        margin-bottom: 0em;
+        
+    }
+
+    .aboutText{
+        color: #fbfaf6;
+        margin-left: -5em;
+        margin-top: 1em;
+        padding-right: 5em;
+    }
+
+    .aboutText p{
+        font-size: 1.2em;
+        
+    }
+
+    header {
+        margin-top: 4em;
+    }
+
+    .titleSkills {
+        color: #fbfaf6;
+        font-family: lettertype;
+        display: flex;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1.5em;
+    }
+
+    
+    .bigBox {
+        display: flex;
+
+
+        flex-direction: row;
+        /* space between */
+        justify-content: space-between;
+        gap: 5em;
+        justify-content: center;
+        align-items: center;
+        padding-left: 10em;
+        padding-right: 10em;
+        
+    }
+
+    .titles h1 {
+        font-size: 5em;
+        
+        padding-left: 0em;
+        margin-left: -2em;
+        
+    }
+    
+    .skillName{
+   
+        /* position: fixed; */
+        margin-top: 17em;
+        margin-left: -24em;
+        
+        
+    
+        text-align: center;
+    }
+
+    .Bg {
+        width: 32em;
+        height: 17em;
+        /* background-color: #155CA5; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 8em;
+    }
+
+    .skillFoto img{
+        width: 15em;
+        
+    }
+
+    .Bg2 img{
+        width: 9em;
+        height: 22em;
+        
+        margin-top: 6em;
+    }
+
+
+    #next-section {
+        margin-right: 25em;
+    }
+
+    .skillName2 {
+       /* position: fixed; */
+       margin-bottom: 30em;
+       margin-left: 10.5em;
+       margin-top: -5em;
+       
+   
+       text-align: center; 
+    }
+    
+
+    .Bg3{
+        width: 28em;
+        height: 11em;
+        /* background-color: #155CA5; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    
+    .Bg3 img{
+        width: 18em;
+        height: 14em;
+        margin-right: 2em;
+        margin-top: 6em;
+    }
+    
+    .skillName3{
+       
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 15em;
+        margin-top: -5em;
+        width: 35em;
+        padding-right: 2em;    
+        
+        /* text-align: center; */
+        
+    }
+
+    .skillFoto3 {
+        margin-right: 26em;
+        
+    }
+
+
+    
+
+    
+
 }
 
 
 @media (max-width: 700px) {
-    /* body {
+    body {
         background-color: lightcoral;
-    } */
+    }
 
     .linkTags {
         gap: 3em;
     }
+    .foto {
+        margin-left: 3em;
+    }
+
+    .text{
+        margin-left: 2em;    
+        color: #fbfaf6;
+        font-size: 1.5em;
+        /* font-family: raleway extrabold; */
+        font-family: 'lettertype';
+        width: 15em;
+    
+    }
+
+
+
+
+
+    .titles h1 {
+        font-size: 5em;
+        
+        padding-left: 0em;
+        margin-left: -3em;
+        
+    }
+    
+    .skillName{
+   
+        /* position: fixed; */
+        margin-top: 17em;
+        margin-left: -19em;
+        
+        
+    
+        text-align: center;
+    }
+
+    .Bg {
+        width: 32em;
+        height: 17em;
+        /* background-color: #155CA5; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 8em;
+    }
+
+    .content {
+        
+        margin-right: 4em;
+
+    }
+
+    .skillFoto img{
+        width: 12em;
+        
+    }
+
+
+    .Bg2 img{
+        width: 7em;
+        height: 17em;
+        
+        margin-top: 6em;
+    }
+
+
+    #next-section {
+        margin-right: 21em;
+    }
+
+    .skillName2 {
+       /* position: fixed; */
+       margin-bottom: 30em;
+       margin-left: 10em;
+       margin-top: -6em;
+       
+   
+       text-align: center; 
+    }
+    
+
+    .Bg3{
+        width: 28em;
+        height: 11em;
+        /* background-color: #155CA5; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 5em;
+    }
+    
+    .Bg3 img{
+        width: 14em;
+        height: 10em;
+        margin-right: 2em;
+        margin-top: 6em;
+    }
+    
+    .skillName3{
+       
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 15em;
+        margin-top: -6em;
+        width: 28em;
+        padding-right: 12em;    
+        
+        /* text-align: center; */
+        
+    }
+
+    .skillFoto3 {
+        margin-right: 36em;
+        
+    }
+
+
+}
+
+@media (max-width: 650px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .linkTags {
+        gap: 2em;
+    }
+
+    .foto {
+        margin-left: 1em;
+    }
+
+    .text{
+        margin-left: 1em;    
+        color: #fbfaf6;
+        font-size: 1.5em;
+        /* font-family: raleway extrabold; */
+        font-family: 'lettertype';
+        width: 15em;
+    
+    }
+
+    .aboutText{
+        color: #fbfaf6;
+        margin-left: -3em;
+        margin-top: 1em;
+        padding-right: 5em;
+    }
+
+    .aboutText p{
+        font-size: 1.2em;
+        
+    }
+
+    header {
+        margin-top: 4em;
+    }
+
+    .foto img{
+        width: auto;
+        height: 12em;
+    
+    
+        /* background-image: url(./images/fotoPortfolio.png); */
+    
+    }
+
+    .text {
+        margin-left: 1.1em;
+        font-size: 1.1em;
+    }
+
+    .titles h1 {
+        font-size: 5em;
+        
+        padding-left: 0em;
+        margin-left: -3em;
+        
+    }
+    
+    .skillName{
+   
+        /* position: fixed; */
+        margin-top: 17em;
+        margin-left: -19em;
+        
+        
+    
+        text-align: center;
+    }
+
+    .Bg {
+        width: 32em;
+        height: 17em;
+        /* background-color: #155CA5; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 8em;
+    }
+
+    .content {
+        
+        margin-right: 0em;
+
+    }
+
+    .skillFoto img{
+        width: 12em;
+        
+    }
+
+
+    .Bg2 img{
+        width: 7em;
+        height: 17em;
+        
+        margin-top: 6em;
+    }
+
+
+    #next-section {
+        margin-right: 17em;
+    }
+
+    .skillName2 {
+       /* position: fixed; */
+       margin-bottom: 30em;
+       margin-left: 10em;
+       margin-top: -6em;
+       
+   
+       text-align: center; 
+    }
+    
+
+    .Bg3{
+        width: 28em;
+        height: 11em;
+        /* background-color: #155CA5; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-left: 0em;
+    }
+    
+    .Bg3 img{
+        width: 14em;
+        height: 10em;
+        margin-right: 2em;
+        margin-top: 6em;
+    }
+    
+    .skillName3{
+       
+        /* position: fixed; */
+        margin-bottom: 30em;
+        margin-left: 18em;
+        margin-top: -11em;
+        width: 28em;
+        padding-right: 20em;    
+        width: 18em;
+        /* text-align: center; */
+        
+    }
+
+    .skillFoto3 {
+        margin-right: 28em;
+        
+}
 
 }

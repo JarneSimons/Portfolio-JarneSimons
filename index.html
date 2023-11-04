@@ -66,9 +66,11 @@
             if (isMenuOpen) {
                 menuToggle.innerHTML = '✕'; // Unicode character for a cross
                 links.classList.add('active');
+                menuToggle.classList.add('bordered'); // Add the 'bordered' class for the top border
             } else {
                 menuToggle.innerHTML = '☰'; // Unicode character for a hamburger
                 links.classList.remove('active');
+                menuToggle.classList.remove('bordered'); // Remove the 'bordered' class
             }
         });
     </script>

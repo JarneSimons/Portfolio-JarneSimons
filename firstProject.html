@@ -9,8 +9,9 @@
 </head>
 <body>
     <nav>
+        <div id="logo"> <a href="index.html"><img src="./images/logo.png" alt=""></a></div>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
         <div class="links">
-            <div id="logo"> <a href="index.html"><img src="./images/logo.png" alt=""></a></div>
             <div class="linkTags">
                 <a href="index.html">About</a>
                 <a href="skills.html">Projects</a>
@@ -59,6 +60,24 @@
     </div>
 
 
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const links = document.querySelector('.links');
+        let isMenuOpen = false;
+    
+        menuToggle.addEventListener('click', function() {
+            isMenuOpen = !isMenuOpen;
+            if (isMenuOpen) {
+                menuToggle.innerHTML = '✕'; // Unicode character for a cross
+                links.classList.add('active');
+                menuToggle.classList.add('bordered'); // Add the 'bordered' class for the top border
+            } else {
+                menuToggle.innerHTML = '☰'; // Unicode character for a hamburger
+                links.classList.remove('active');
+                menuToggle.classList.remove('bordered'); // Remove the 'bordered' class
+            }
+        });
+    </script>
 
 </body>
 </html>

@@ -31,7 +31,41 @@ let currentSkillIndex = 0;
 
 
 
-function toggleMenu(){
-    const links = document.querySelector('.linkTags');
-    links.classList.toggle('active');
+// function toggleMenu() {
+//     const menuToggle = document.querySelector('.menu-toggle');
+//     const links = document.querySelector('.links');
+//     let isMenuOpen = false;
+    
+//     menuToggle.addEventListener('click', function() {
+//         console.log('clicked');
+//         isMenuOpen = !isMenuOpen;
+//         if (isMenuOpen) {
+//             menuToggle.innerHTML = '✕'; // Unicode character for a cross
+//             links.classList.add('active');
+//         } else {
+//             menuToggle.innerHTML = '☰'; // Unicode character for a hamburger
+//             links.classList.remove('active');
+//         }
+//     });
+// }
+
+
+function toggleMenu() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const links = document.querySelector('.links');
+    let isMenuOpen = false;
+
+    console.log('clicked');
+    isMenuOpen = !isMenuOpen;
+    if (isMenuOpen) {
+        menuToggle.innerHTML = '✕'; // Unicode character for a cross
+        links.classList.add('active');
+    } else {
+        menuToggle.innerHTML = '☰'; // Unicode character for a hamburger
+        links.classList.remove('active');
+    }
 }
+
+// Attach the event listener outside the toggleMenu function
+const menuToggle = document.querySelector('.menu-toggle');
+menuToggle.addEventListener('click', toggleMenu);
