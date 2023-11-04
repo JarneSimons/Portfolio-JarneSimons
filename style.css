@@ -1274,7 +1274,43 @@ html {
         font-size: 6em;
     }
 
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        height: 20em;
+        padding: 0em;
+    }
     
+    .boxFotosProject1 {
+        
+        gap: 4em;
+        
+    }
+
+
+    .firstPicProject2, .secondPicProject2, .thirdPicProject2 {
+        height: 19em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject2 {
+        
+        gap: 1em;
+        
+    }
+
+
+    .firstPicProject3, .secondPicProject3, .thirdPicProject3 {
+        height: 16em;
+        width: 20em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject3 {
+        
+        gap: 1em;
+        
+    }
+
+
    
 }
 
@@ -1400,6 +1436,70 @@ html {
         padding-top: 11em;
     }
 
+    .titleProject img {
+        width: 25em;
+        height: 15em;
+    }
+
+    .titleProject{
+        color: #fbfaf6;
+        font-family: lettertype3;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 5em;
+        justify-content: top;
+        align-items: top;
+        margin-bottom: 5em;
+        
+    }
+
+    .titlePro {
+        margin-left: 0.9em;
+    }
+
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        height: 15em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject1 {
+        
+        gap: 1em;
+        
+    }
+
+    .titleProject2{
+       
+        margin-left: 4em;
+ 
+        
+    }
+    
+    .titleProject2 img {
+        width: auto;
+        height: 22em;
+    }
+
+
+    .firstPicProject3, .secondPicProject3, .thirdPicProject3 {
+        height: 12em;
+        width: 18em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject3 {
+        
+        gap: 0em;
+        
+    }
+
+    .titleProject3{
+       
+        margin-left: 4em;
+ 
+        
+    }
 }
 
 @media (max-width: 1000px) {
@@ -1460,6 +1560,73 @@ html {
     #next-section {
         margin-right: 29em;
     }
+
+    .titleProject img {
+        width: 20em;
+        height: 12em;
+    }
+
+    .titleProject{
+        color: #fbfaf6;
+        font-family: lettertype3;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: row;
+        margin-left: 3em;
+        justify-content: top;
+        align-items: top;
+        margin-bottom: 5em;
+        
+    }
+
+    .titlePro {
+        margin-left: 0.5em;
+    }
+
+
+    .firstPicProject2, .secondPicProject2, .thirdPicProject2 {
+        height: 16em;
+        width: 18em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject2 {
+        
+        gap: 0em;
+        
+    }
+
+    .titleProject2{
+       
+        margin-left: 2em;
+ 
+        
+    }
+
+    .firstPicProject3, .secondPicProject3, .thirdPicProject3 {
+        height: 12em;
+        width: 18em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject3 {
+        
+        gap: 0em;
+        
+    }
+
+    .titleProject3{
+       
+        margin-left: 2em;
+ 
+        
+    }
+    .titleProject2 img {
+        width: 15em;
+        height: 20em;
+    }
+    
+    
 }
 
 @media (max-width: 900px) {
@@ -1522,6 +1689,38 @@ html {
         text-align: center;
     }
 
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        height: 10em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject1 {
+        
+        gap: 0em;
+        
+    }
+
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        width: 15em;
+        height: 18em;
+        
+    }
+
+    .firstPicProject2, .secondPicProject2, .thirdPicProject2 {
+        height: 16em;
+        width: 14em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject2 {
+        
+        gap: 0em;
+        
+    }
+
+    .picsProject2 h2 {
+        margin-top: -2em;
+    }
 }
 
 
@@ -1726,6 +1925,45 @@ html {
     }
 
 
+    .titleProject img {
+        width: 17em;
+        height: 10em;
+    }
+
+    .titleProject{
+        color: #fbfaf6;
+        font-family: lettertype3;
+        margin-top: 1em;
+        display: flex;
+        flex-direction: column;
+        margin-left: 3em;
+        justify-content: left;
+        align-items: left;
+        margin-bottom: 5em;
+        
+    }
+
+    .titlePro {
+        margin-left: 0.5em;
+        margin-top: 1.5em;
+    }
+
+    .textProject {
+        margin-left: 0em;
+    }
+
+
+    
+    .titleProject2{
+       
+        margin-left: 2em;
+ 
+        
+    }
+
+    .textProject {
+        padding-left: 2em;
+    }
     
 
     
@@ -1860,6 +2098,35 @@ html {
         
     }
 
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        height: 7em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject1 {
+        
+        gap: 0em;
+        
+    }
+
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        width: 10em;
+        height: 10em;
+        
+    }
+
+
+    .firstPicProject2, .secondPicProject2, .thirdPicProject2 {
+        height: 12em;
+        width: 10em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject2 {
+        
+        gap: 0em;
+        
+    }
 
 }
 
@@ -2015,6 +2282,23 @@ html {
     .skillFoto3 {
         margin-right: 28em;
         
+}
+
+.firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+    height: 5em;
+    padding: 0em;
+}
+
+.boxFotosProject1 {
+    
+    gap: 0em;
+    
+}
+
+.firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+    width: 10em;
+    height: 10em;
+    
 }
 
 }
