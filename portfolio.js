@@ -28,3 +28,10 @@ let currentSkillIndex = 0;
         displaySkill();
         startInterval(); // Restart the interval on mouse leave
     });
+
+
+
+function toggleMenu(){
+    const links = document.querySelector('.linkTags');
+    links.classList.toggle('active');
+}

@@ -66,6 +66,9 @@ nav {
     width: 100%;
     
     border-bottom: #0F85FF 3px solid;
+    position: absolute;
+    top: 4.5em;
+    z-index: 1;
 }
 
 .links a{
@@ -1117,4 +1120,96 @@ html {
     margin-bottom: 2em;
     margin-top: 0em;
    
+}
+
+
+
+
+
+
+/* hamburger menu */
+.menu-toggle {
+    display: none;
+    color: #0F85FF;
+    position: absolute;
+    top: 0.5em;
+    right: 1.5em;
+    cursor: pointer;
+    z-index: 3;
+    font-size: 2em;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1.1em;
+}
+
+.linkTags {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+    margin-top: -0.2em;
+}
+
+
+
+/* responsive */
+
+@media (max-width: 800px) {
+    /* body {
+        background-color: lightcoral;
+    } */
+    .links {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 4.5em;
+        /* right: 1.5em; */
+        background-color: #010101;
+        width: 100%;
+        z-index: 2;
+    }
+
+    .links.active {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        border-top: #0F85FF 3px solid;
+    }
+
+    .linkTags {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 7em;
+        margin-top: 0em;
+    }
+
+    .menu-toggle {
+        display: flex;
+        /* /* z-index: 2;
+        color: #0F85FF;
+        position: absolute;
+        top: 1.5em;
+        right: 1.5em;
+        cursor: pointer; */
+    } 
+
+}
+
+
+@media (max-width: 700px) {
+    /* body {
+        background-color: lightcoral;
+    } */
+
+    .linkTags {
+        gap: 3em;
+    }
+
 }
