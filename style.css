@@ -36,7 +36,7 @@ body::-webkit-scrollbar {
 
     /* margin-right: 43em; */
     z-index: 1;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     margin-top: 1em;
@@ -57,7 +57,8 @@ body::-webkit-scrollbar {
 nav {
     
     /* justify-content: space-between; */
-    
+    /* position: relative;
+    z-index: 2; */
     
     
 }
@@ -1625,6 +1626,13 @@ html {
         width: 15em;
         height: 20em;
     }
+
+
+    
+    .titleProject3 img {
+        width: 20em;
+        height: 12em;
+    }
     
     
 }
@@ -1721,7 +1729,22 @@ html {
     .picsProject2 h2 {
         margin-top: -2em;
     }
-}
+
+    .firstPicProject3, .secondPicProject3, .thirdPicProject3 {
+        height: 10em;
+        width: 14em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject3 {
+        
+        gap: 0em;
+        
+    }
+
+    .textProject {
+        margin-right: 4em;
+    }
 
 
 
@@ -1965,6 +1988,26 @@ html {
         padding-left: 2em;
     }
     
+    .firstPicProject3, .secondPicProject3, .thirdPicProject3 {
+        height: 9em;
+        width: 12em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject3 {
+        
+        gap: 0em;
+        
+    }
+
+    .textProject {
+        margin-right: 5em;
+        
+    }
+
+    .textProject p {
+        margin-top: 0em;
+    }
 
     
 
@@ -2128,6 +2171,31 @@ html {
         
     }
 
+    .titleProject3 {
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .textProject p {
+        margin-top: 1em;
+        margin-left: -2em;
+        padding-right: 1em;
+    }
+
+    .firstPicProject3, .secondPicProject3, .thirdPicProject3 {
+        height: 8em;
+        width: 10em;
+        padding: 0em;
+    }
+    
+    .boxFotosProject3 {
+        
+        gap: 0em;
+        
+    }
+
 }
 
 @media (max-width: 650px) {
@@ -2282,23 +2350,30 @@ html {
     .skillFoto3 {
         margin-right: 28em;
         
+    }
+
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        height: 5em;
+        padding: 0em;
+    }
+
+    .boxFotosProject1 {
+        
+        gap: 0em;
+        
+    }
+
+    .firstPicProject1, .secondPicProject1, .thirdPicProject1 {
+        width: 10em;
+        height: 10em;
+        
+    }
+
+    .firstPicProject3, .secondPicProject3, .thirdPicProject3 {
+        height: 6em;
+        width: 8em;
+        padding: 0em;
+    }
+
 }
 
-.firstPicProject1, .secondPicProject1, .thirdPicProject1 {
-    height: 5em;
-    padding: 0em;
-}
-
-.boxFotosProject1 {
-    
-    gap: 0em;
-    
-}
-
-.firstPicProject1, .secondPicProject1, .thirdPicProject1 {
-    width: 10em;
-    height: 10em;
-    
-}
-
-}
