@@ -1161,9 +1161,9 @@ html {
 /* responsive */
 
 @media (max-width: 2000px) {
-    body {
+    /* body {
         background-color: lightcoral;
-    }
+    } */
 
     
     .color {
@@ -1183,9 +1183,9 @@ html {
 
 
 @media (max-width: 1900px) {
-    body {
+    /* body {
         background-color: lightgreen;
-    }
+    } */
 
     
     .color {
@@ -1202,9 +1202,9 @@ html {
 
 
 @media (max-width: 1300px) {
-    body {
+    /* body {
         background-color: lightcoral;
-    }
+    } */
     .aboutText{
         color: #fbfaf6;
         margin-left: 2em;
@@ -1316,9 +1316,9 @@ html {
 }
 
 @media (max-width: 1100px) {
-    body {
+    /* body {
         background-color: lightblue;
-    }
+    } */
     .aboutText{
         color: #fbfaf6;
         margin-left: -5em;
@@ -1501,12 +1501,16 @@ html {
  
         
     }
+
+    .fotoContact{
+        width: 14em;
+    }
 }
 
 @media (max-width: 1000px) {
-    body {
+    /* body {
         background-color: lightgreen;
-    }
+    } */
     .aboutText{
         color: #fbfaf6;
         margin-left: -5em;
@@ -1634,13 +1638,22 @@ html {
         height: 12em;
     }
     
+    .fotoContact img{
+        width: 15em;
+        height: 20em;
+    }
+
+    .fotoContact {
+        margin-right: 3em;
+        margin-top: 6em;
+    }
     
 }
 
 @media (max-width: 900px) {
-    body {
+    /* body {
         background-color: red;
-    }
+    } */
 
     .skillName h2{
         font-family: lettertype3;
@@ -1746,12 +1759,32 @@ html {
         margin-right: 4em;
     }
 
+    .boxContact {
+        width: 30em;
+        height: 60vh;
+        border-top: #0F85FF 3px solid;
+        border-right: #0F85FF 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: row; */
+    }
 
+    .fotoContact img{
+        width: 15em;
+        height: 20em;
+    }
+
+    .fotoContact {
+        margin-right: 3em;
+        margin-top: 6em;
+    }
+}
 
 @media only screen and (max-width: 800px) {
-    body {
+    /* body {
         background-color: lightsalmon;
-    }
+    } */
     .links {
         display: none;
         flex-direction: column;
@@ -2009,15 +2042,41 @@ html {
         margin-top: 0em;
     }
 
+    .contactTitle {
+        margin-top: 4em;
+    }
+
+    .boxContact {
+        
+        width: 30em;
+        height: 60vh;
+        border-top: #0F85FF 3px solid;
+        border-right: #0F85FF 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: row; */
+    }
+
+    .fotoContact img{
+        width: 10em;
+        height: 15em;
+    }
+
+    .fotoContact {
+        margin-right: -2em;
+        margin-top: 9em;
+        margin-left: 2em;
+    }
     
 
 }
 
 
 @media (max-width: 700px) {
-    body {
+    /* body {
         background-color: lightcoral;
-    }
+    } */
 
     .linkTags {
         gap: 3em;
@@ -2196,12 +2255,24 @@ html {
         
     }
 
+    .fotoContact img{
+        width: 10em;
+        height: 12em;
+    }
+
+    .fotoContact {
+        margin-right: -3em;
+        margin-top: 9em;
+        margin-left: 2em;
+    }
+    
+
 }
 
 @media (max-width: 650px) {
-    body {
+    /* body {
         background-color: lightblue;
-    }
+    } */
 
     .linkTags {
         gap: 2em;
@@ -2258,7 +2329,17 @@ html {
         margin-left: -3em;
         
     }
+
+    .titleProject2 img {
+        width: 11em;
+        height: 18em;
+    }
     
+    .titleProject2 {
+        display: flex;
+        flex-direction: column;
+    }
+
     .skillName{
    
         /* position: fixed; */
@@ -2315,6 +2396,9 @@ html {
        text-align: center; 
     }
     
+    /* .textProject p {
+        margin-left: 1em;
+    } */
 
     .Bg3{
         width: 28em;
@@ -2373,6 +2457,30 @@ html {
         height: 6em;
         width: 8em;
         padding: 0em;
+    }
+
+
+    .boxContact {
+        
+        width: 24em;
+        height: 60vh;
+        border-top: #0F85FF 3px solid;
+        border-right: #0F85FF 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* flex-direction: row; */
+    }
+
+    .fotoContact img{
+        width: 8em;
+        height: 10em;
+    }
+
+    .fotoContact {
+        margin-right: -5em;
+        margin-top: 11em;
+        
     }
 
 }
