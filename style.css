@@ -206,13 +206,13 @@ header {
     
 }
 
-.skills {
+/* .skills {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 4em;
-}
+} */
 
 .skills a{
     text-decoration: none;
@@ -225,9 +225,14 @@ header {
 
 .linkButtons {
     background-color: #0F85FF;
-    padding: 0.6em 5em;
+    padding: 0.6em 2em;
     border-radius: 8px;
+    font-family: lettertype3;
+    
+}
 
+.linkButtons a {
+    font-family: lettertype3;
 }
 
 .linkButtons:hover{
@@ -235,16 +240,15 @@ header {
     
 }
 
-/* .linkButtons:active{
-    background-color: #fbfaf6;
-    
-} */
 
 .skills p{
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
 
+.skills {
+    margin-top: 2em;
+}
 
 
 .titles {
@@ -1858,6 +1862,7 @@ html {
 
     header {
         margin-top: 4em;
+        margin-bottom: 8em;
     }
 
     .titleSkills {
@@ -2278,9 +2283,10 @@ html {
         gap: 2em;
     }
 
-    .foto {
+    /* .foto {
         margin-left: 1em;
-    }
+
+    } */
 
     .text{
         margin-left: 1em;    
@@ -2294,14 +2300,15 @@ html {
 
     .aboutText{
         color: #fbfaf6;
-        margin-left: -3em;
-        margin-top: 1em;
+        /* margin-left: -3em; */
+        margin-top: 0.5em;
         padding-right: 5em;
+        margin-left: 3em;
     }
 
     .aboutText p{
         font-size: 1.2em;
-        
+        margin-right: 1em;
     }
 
     header {
@@ -2310,17 +2317,23 @@ html {
 
     .foto img{
         width: auto;
-        height: 12em;
+        height: 17em;
     
     
         /* background-image: url(./images/fotoPortfolio.png); */
     
     }
 
+    .foto {
+        margin-top: 2em;
+        margin-left: 0em;
+    }
     .text {
         margin-left: 1.1em;
         font-size: 1.1em;
     }
+
+
 
     .titles h1 {
         font-size: 5em;
@@ -2365,7 +2378,7 @@ html {
     .content {
         
         margin-right: 0em;
-
+        
     }
 
     .skillFoto img{
@@ -2483,5 +2496,15 @@ html {
         
     }
 
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bigBox {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
 }
 
