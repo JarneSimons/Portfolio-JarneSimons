@@ -49,6 +49,13 @@ secondBox.addEventListener('mouseleave', function() {
 });
 
 
+
+
+
+
+
+// hamburger menu
+
 function toggleMenu() {
     const menuToggle = document.querySelector('.menu-toggle');
     const links = document.querySelector('.links');
