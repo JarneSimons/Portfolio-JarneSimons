@@ -1232,6 +1232,36 @@ html {
 /*  */
 /*  */
 
+@media (max-width: 2200px) {
+    /* #next-section {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 15em;
+        padding-top: 15em;
+    } */
+
+    /* body {
+        background-color: lightblue;
+    } */
+
+    .boxContact {
+        height: 70vh;
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
 @media (max-width: 2000px) {
     /* body {
         background-color: lightcoral;
@@ -1244,9 +1274,43 @@ html {
         left: 0;
         z-index: -1;
         width: 100%;
-        height: 50vh;
+        height: 54vh;
         background-color: #155CA5;
     }
+
+    #next-section {
+        /* margin-left: 10em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 10em; */
+        /* margin-right: 32em; */
+        margin-bottom: 15em;
+        padding-top: 25em;
+    }
+
+    .content {
+        padding-bottom: 10em;
+    }
+
+    .skillName2 {
+        margin-left: 12em;
+        margin-top: -12em;
+    }
+
+    #next-section2{
+        margin-top: 50em;
+        padding-top: 10em;
+    }
+
+    .skillName3 {
+        margin-left: 25em;
+        margin-top: -15em;
+    }
+    
+    
+
 }
 
 
@@ -1285,6 +1349,18 @@ html {
     .Bg {
         padding-top: 0em;
         margin-top: -1em;
+    }
+
+    #next-section {
+        /* margin-left: 10em; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 0em; */
+        /* margin-right: 32em; */
+        margin-bottom: 15em;
+        padding-top: 11em;
     }
 
     
@@ -2729,7 +2805,7 @@ html {
         color: #fbfaf6;
         font-family: lettertype3;
         margin-left: 0em;
-        margin-right: 8em;
+        margin-right: 6em;
         margin-top: 0.5em;
     }
 
