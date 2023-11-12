@@ -64,10 +64,10 @@ function toggleMenu() {
     console.log('clicked');
     isMenuOpen = !isMenuOpen;
     if (isMenuOpen) {
-        menuToggle.innerHTML = '✕'; // Unicode character for a cross
+        menuToggle.innerHTML = '&#10005;'; // Unicode character for a cross
         links.classList.add('active');
     } else {
-        menuToggle.innerHTML = '☰'; // Unicode character for a hamburger
+        menuToggle.innerHTML = '&#9776;'; // Unicode character for a hamburger
         links.classList.remove('active');
     }
 }
