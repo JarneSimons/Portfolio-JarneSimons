@@ -70,14 +70,14 @@
 
             </div>
         </div>
-        <div class="border"></div>
+        <!-- <div class="border"></div> -->
         
     </nav>
 
 
     <header>
         
-        <div>
+        <div class="boxImg">
             <div class="boxFoto">
                 <div class="foto">
                     <img src="../images/mePortfolio.svg" alt="Jarne Simons Portfolio Brand UX/UI Design Image">
@@ -116,11 +116,11 @@
         menuToggle.addEventListener('click', function() {
             isMenuOpen = !isMenuOpen;
             if (isMenuOpen) {
-                menuToggle.innerHTML = '✕'; // Unicode character for a cross
+                menuToggle.innerHTML = '&#10005;'; // Unicode character for a cross
                 links.classList.add('active');
                 menuToggle.classList.add('bordered'); // Add the 'bordered' class for the top border
             } else {
-                menuToggle.innerHTML = '☰'; // Unicode character for a hamburger
+                menuToggle.innerHTML = '&#9776;'; // Unicode character for a hamburger
                 links.classList.remove('active');
                 menuToggle.classList.remove('bordered'); // Remove the 'bordered' class
             }

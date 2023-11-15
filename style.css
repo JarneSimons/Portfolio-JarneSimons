@@ -22,7 +22,7 @@ body {
     font-family: lettertype;
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     
 }
 
@@ -60,7 +60,8 @@ nav {
     /* justify-content: space-between; */
     /* position: relative;
     z-index: 2; */
-    
+    height: 4em;
+    border-bottom: #0F85FF 3px solid;
     
 }
 
@@ -100,6 +101,7 @@ nav {
     align-items: right;
     justify-content: right;
     padding: 1.1em;
+    
 
 }
 
@@ -602,7 +604,10 @@ html {
     align-items: center;
     padding-left: 15em;
     padding-right: 15em;
-    
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -842,6 +847,8 @@ html {
 }
 
 
+
+
 .socials4 {
     
     display: flex;
@@ -877,19 +884,36 @@ html {
 
 
 .boxContact {
-    width: 40em;
+    /* width: 40em;
     height: 60vh;
     border-top: #0F85FF 3px solid;
     border-right: #0F85FF 3px solid;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     /* flex-direction: row; */
+
+
+    position: fixed;
+        top: 70%;
+        
+        left: 0;
+        /* padding-left: 2em; */
+        width: 38em;
+        border-top: #0F85FF 3px solid;
+        border-right: #0F85FF 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(-50%);
 }
 
 
 .bodyContact {
-    overflow: hidden;
+    overflow-x: hidden;
+    /* margin: 0em; */
+
+    
 }
 
 .textContact{
@@ -1198,8 +1222,8 @@ html {
     display: none;
     color: #0F85FF;
     position: absolute;
-    top: 0.5em;
-    right: 1.5em;
+    top: 2%;
+    right: 4%;
     cursor: pointer;
     z-index: 3;
     font-size: 2em;
@@ -1272,6 +1296,8 @@ html {
         position: fixed;
         bottom: 0;
         left: 0;
+        top: 60%;
+        
         z-index: -1;
         width: 100%;
         height: 54vh;
@@ -1587,7 +1613,7 @@ html {
     .skillName3{
 
         position: absolute;
-        width: 25em;
+        width: 22em;
         margin-left: 20em;
         margin-top: -15em;
     }
@@ -1849,7 +1875,7 @@ html {
         margin-left: 30em;
         margin-top: -13em;
         font-size: 0.7em;
-        width: 35em;
+        width: 22em;
     }
     
 }
@@ -2011,9 +2037,11 @@ html {
         display: none;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         position: absolute;
-        top: 4.5em;
-        /* right: 1.5em; */
+        top: 16%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         background-color: #010101;
         width: 100%;
         z-index: 2;
@@ -2023,7 +2051,12 @@ html {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        border-top: #0F85FF 3px solid;
+        align-items: center;
+        /* border-top: #0F85FF 3px solid; */
+        /* background-color: red;  */
+        width: auto;
+        
+        
     }
 
     .linkTags {
@@ -2090,7 +2123,7 @@ html {
         width: auto;
         align-items: center;
         justify-content: center;
-        margin-top: 1.5em;
+        /* margin-top: 1.5em; */
     }
 
     
@@ -2272,7 +2305,7 @@ html {
     }
 
     .contactTitle {
-        margin-top: 4em;
+        margin-top: 2em;
     }
 
     .boxContact {
@@ -2514,9 +2547,10 @@ html {
 }
 
 @media (max-width: 650px) {
-    /* body {
-        background-color: lightblue;
-    } */
+
+    .bodyContact {
+        /* margin: 0; */
+    }
 
     .linkTags {
         gap: 2em;
@@ -2615,17 +2649,24 @@ html {
     }
 
     .Bg {
-        /* width: 32em;
-        height: 17em; */
+        width: 22em;
+        height: 17em;
         /* background-color: #155CA5; */
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        padding-top: 5em;
+        /* padding-top: 5em; */
         
     }
 
+    .titleSkills {
+        margin-top: 0em;
+    }
+
+    /* .titleSkills h1 {
+        margin-top: 0.5em;
+    } */
 
 
     .Bg img {
@@ -2682,6 +2723,10 @@ html {
         margin-left: 1em;
     } */
 
+    .skillName3 {
+        width: 15em;
+    }
+
     .Bg3{
         width: 28em;
         height: 11em;
@@ -2730,14 +2775,32 @@ html {
 
     .boxContact {
         
+        /* width: 18em;
+        height: 100vh; 
+        border-top: #0F85FF 3px solid;
+        border-right: #0F85FF 3px solid;
+        display: flex;
+        align-items: center;
+        justify-content: center; */
+        /* flex-direction: row; */
+
+        position: fixed;
+        top: 70%;
+        
+        left: 0;
+        padding-left: 2em;
         width: 18em;
-        height: 60vh;
         border-top: #0F85FF 3px solid;
         border-right: #0F85FF 3px solid;
         display: flex;
         align-items: center;
         justify-content: center;
-        /* flex-direction: row; */
+        transform: translateY(-50%);
+
+    }
+
+    .boxContact p {
+        margin: 0em;
     }
 
     .socials4 {
@@ -2746,6 +2809,7 @@ html {
 
     .contactTitle {
         margin-left: 1em;
+        margin-top: 0em;
     }
 
     .fotoContact img{
@@ -2768,12 +2832,17 @@ html {
     .bigBox {
         padding-left: 5em;
         padding-right: 5em;
+        position: fixed;
+        left: 50%;
+        top: 60%;
+        transform: translate(-50%, -50%);
     }
 
 
     .skillTitle {
        font-size: 2em; 
-       margin-top: 2em;
+       margin-top: 0em;
+       
     }
     
     .next-section {
@@ -2821,6 +2890,23 @@ html {
         width: 10em;
         height: 18em;
     }
+    
+    .boxImg{
+        width: 16.5em;
+    }
+
+    /* body {
+        background-color: #010101;
+        font-family: lettertype;
+        -ms-overflow-style: none;  IE and Edge
+        scrollbar-width: none;  Firefox
+        overflow-x: hidden;
+        
+    } */
+    
+    /* body::-webkit-scrollbar {
+        display: none;
+    } */
   
 }
 

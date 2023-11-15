@@ -63,7 +63,7 @@
 <body itemscope itemtype="http://schema.org/Person">
     <nav>
         <div id="logo"> <a href="index.html"><img src="./images/logo.png" alt="Logo of OPTAMO - Jarne Simons UX/UI Brand Designer"></a></div>
-        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
         <div class="links">
             <div class="linkTags">
                 <a href="index.html">About</a>
@@ -72,7 +72,7 @@
 
             </div>
         </div>
-        <div class="border"></div>
+        <!-- <div class="border"></div> -->
         
     </nav>
 
@@ -121,11 +121,11 @@
         menuToggle.addEventListener('click', function() {
             isMenuOpen = !isMenuOpen;
             if (isMenuOpen) {
-                menuToggle.innerHTML = '✕'; // Unicode character for a cross
+                menuToggle.innerHTML = '&#10005;'; // Unicode character for a cross
                 links.classList.add('active');
                 menuToggle.classList.add('bordered'); // Add the 'bordered' class for the top border
             } else {
-                menuToggle.innerHTML = '☰'; // Unicode character for a hamburger
+                menuToggle.innerHTML = '&#9776;'; // Unicode character for a hamburger
                 links.classList.remove('active');
                 menuToggle.classList.remove('bordered'); // Remove the 'bordered' class
             }
