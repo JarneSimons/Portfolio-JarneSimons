@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://www.jarnesimons.be/index.html</loc>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-    
+   <url>
+      <loc>https://www.jarnesimons.be/index.html</loc>
+      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://www.jarnesimons.be/skills.html</loc>
+      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://www.jarnesimons.be/contact.html</loc>
+      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://www.jarnesimons.be/mySkills.html</loc>
+      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>1.0</priority>
+   </url>
+   <url>
+      <loc>https://www.jarnesimons.be/firstProject.html</loc>
+      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://www.jarnesimons.be/secondProject.html</loc>
+      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+   </url>
+   <url>
+      <loc>https://www.jarnesimons.be/thirdProject.html</loc>
+      <lastmod>2023-01-01T00:00:00+00:00</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.80</priority>
+   </url>
+   
 </urlset>
